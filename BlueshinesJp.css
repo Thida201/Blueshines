@@ -1,0 +1,327 @@
+body
+{
+    /* border: 3px solid black; */
+}
+.div1 > a
+        {
+            padding: 7px 30px;
+            color: #051B53;
+            border: 1px solid bisque;
+            background-color: #FFD9D9;
+            border-radius: 10px;
+            text-decoration: none;          
+        }
+         .pp
+        { 
+            display: inline-block;
+            width:auto;
+            height: 200px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            text-indent:40px;
+            
+            text-align: justify;
+            padding: 40px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            row-gap: 40px;
+           
+            /* background-color: rgb(248, 218, 223); */
+            /* margin-bottom: 40px; */
+            font-family: 'Zen Old Mincho', serif;
+            
+            /* border: 2px solid pink; */
+           
+        } 
+        #vd
+        {
+            /* padding: 10px 10px 10px 10px; */
+            display: flex;
+            /* flex-direction: row; */
+            /* padding: 10px 10px 10px 100px; */
+            /* align-items: center; */
+            justify-content: space-around;
+            flex-wrap: wrap;
+            /* flex-direction: row; */
+            row-gap: 40px;
+            /* justify-content: center; */
+            /* border: 3px solid green;  */
+            width: auto;            
+            /* margin: 2px; */
+            
+        }
+ .nav > a
+{
+    
+    width: 100%;
+    height:fit-content;
+    padding: 7px 30px;
+    text-decoration: none;
+    color: black;
+    font-family: calibri;
+    font-weight: bold;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.20); 
+}
+.nav > a:hover
+{
+    background-color: transparent;
+    color: skyblue;
+}
+
+
+        .fr
+        {
+            border: 10px solid white;
+            box-shadow: 1px 1px 6px 4px rgb(173, 217, 243);    
+            display:inline-flex;
+            position: relative;
+            /* width: 100%; */
+            /* height: auto; */
+            width: 446px;
+            height: 215px;
+            /* width: auto; */
+            
+           
+        }
+        #s
+        {
+            /* border: 2px solid black; */
+            width: 100%;
+            margin: auto;  
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 10px;
+            padding: 10px;
+            justify-content: space-around;
+            /* align-items: center; */
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            /* margin-top: 60px; */
+        }
+        .s1{
+            /* sflex-basis: 60%; */
+            display: block;
+            /* border: solid red;   */
+            width: 60%;
+            text-align: justify;
+            /* padding: opx 10px 0px 10px; */
+             justify-content: space-around;
+             /* align-items: center; */
+             /* align-content: center; */
+             /* margin: auto; */
+            
+            
+           
+        }
+        .s1 > h1
+        {
+            display: inline-flex;
+            /* border: 2px solid white; */
+            background-color: white;
+            border-top-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            padding: 10px 60px 10px 60px;
+            font-family: 'Shippori Mincho B1', serif;
+        }
+        .s2
+        {          
+            box-shadow: 1px 1px 6px 4px gray;
+            /* margin: auto; */
+            /* display: block; */
+            /* padding: 10px; */
+            /* border-radius: 16px; */
+            /* vertical-align: top; */
+            width: 400px;
+            height: fit-content;
+            /* align-items: left; */
+            /* vertical-align: middle; */
+            /* justify-content: space-around;
+            row-gap: wrap; */
+            box-shadow: 1px 1px 6px 4px gray;
+            /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+            /* font-family: 'Fascinate', cursive;  */
+            /* font-family: 'Playfair', serif; */
+            margin-top: 30px;
+            transition: all 1s;
+            text-align: center;
+            
+        
+            /* padding: 10px 10px; */
+            /* background-color: rgb(185, 184, 182); */
+        }
+       .s2in{
+            /* border: 3px solid red; */
+            border-bottom: 1px dotted black;
+            font-size: 12px;
+            width: 80%;
+            /* height: 120px; */
+            text-align: center;
+            padding: 10px 10px 3px 10px;
+            display: inline-block;
+            /* align-items: center; */
+            vertical-align: middle;
+            margin: 10px;
+            /* position: relative; */
+            font-family: 'Zen Kurenaido', sans-serif;
+            /* font-family: 'Noto Sans JP', sans-serif; */
+
+        }
+        
+        .s2 > h2{
+            /* border: 2px solid rgb(245, 250, 250); */
+            background-color:#fad9e0;
+            border-radius: 10px;
+            padding: 7px 10px 7px 10px;
+            /* font-family: 'Poiret One', cursive; */
+            font-family: 'Zen Kurenaido', sans-serif;
+            
+            
+        }
+        .s2in>img
+        {
+            box-shadow: 1px 1px 6px 4px rgb(241, 206, 206);
+            border-radius: 100%; 
+            overflow: hidden; 
+            width: 30%; 
+            height: auto; 
+            float: left;
+        }
+        /* .s2in>img
+        {
+            clear:right; 
+        } */
+        /* .s2in > div> hr{
+            width: 80%;
+            position: relative;
+            top: 0px;
+            color: white;
+            
+        } */
+        /* .s2in > img
+        {
+            width: 20px;
+            height: auto;
+        } */
+        .s2in > img:hover
+        {
+            transform: scale(2);
+            background-color: bisque;
+            z-index: -1;
+            
+        }
+        
+        
+        #photo
+        {
+            align-items: center;
+            margin: auto;
+        }
+
+        .tab {
+            display: none;
+          }
+        
+          .tab.active {
+            display: block;
+          }
+
+    
+
+        
+          * {
+            box-sizing: border-box;
+          }
+          
+          /* Position the image container (needed to position the left and right arrows) */
+          .container {
+            position: relative;
+            box-shadow: 1px 1px 6px 4px rgb(93, 95, 96);
+            width: 90%;
+            margin: auto;
+          }
+          
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+          }
+          
+          /* Add a pointer when hovering over the thumbnail images */
+          .cursor {
+            cursor: pointer;
+          }
+          
+          /* Next & previous buttons */
+          .prev,
+          .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover,
+          .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* Container for image text */
+          .caption-container {
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            background-color: rgb(204, 227, 248);
+            /* padding: 2px 16px; */
+            color: rgb(16, 15, 15);
+            
+        
+            
+          }
+          
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Six columns side by side */
+          .column {
+            float: left;
+            width: 16.66%;
+          }
+          
+          /* Add a transparency effect for thumnbail images */
+          .demo {
+            opacity: 0.6;
+          }
+          
+          .active,
+          .demo:hover {
+            opacity: 1;
+          }
+

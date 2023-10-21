@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Shinees</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Cormorant:wght@300;400&family=Dosis:wght@200&family=Fascinate&family=M+PLUS+Rounded+1c:wght@100;900&family=Mochiy+Pop+P+One&family=Noto+Sans+JP:wght@300&family=PT+Serif&family=Philosopher&family=Playfair:wght@300&family=Poiret+One&family=Quicksand&family=Rokkitt:wght@100;200&family=Shippori+Antique+B1&family=Shippori+Mincho+B1&family=Zen+Kurenaido&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="BlueshinesJp.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script src="./MLang.js"></script>  
+    <!-- <script>
+        const tabs = document.getElementsByClassName('tab1');
+        tabs[0].clicked(); // Simulate click on the first tab by default
+    </script> -->
+
+</head>
+<body style="background-color:  rgb(222, 225, 227);">
+    <div class="nav" align="right">
+      
+        <!-- <a href="?lang=ja" class="tab" >日本</a> 
+        <a href="?lang=en" class="tab">English</a> 
+        <a href="?lang=vn" class="tab">Việt Nam</a> 
+        <a href="?lang=my" class="tab">မြန်မာ</a>      -->
+        
+        <a href="?lang=ja">日本</a> 
+        <a href="?lang=en">English</a> 
+        <a href="?lang=vn">Việt Nam</a> 
+        <a href="?lang=my">မြန်မာ</a>         
+    </div>
+    <!-- <div class="div1" align="right" style="background-color:black; padding: 40px;">
+        <ul>
+            <li><a href="?lang=ja">Japan</a></li>
+            <li><a href="?lang=en">English<a></li>           
+            <li><a href="?lang=vn">Vietnan</a></li>
+            <li><a href="?lang=my">Myanmar</a></li>
+        </ul>
+    </div> -->
+    <!-- <div class="div1" align="right" style="background-color:black; padding: 40px;">
+        <ul>
+            <li><a href="?lang=ja">Japan</a>click</li>
+            <li><a href="?lang=en">English</a></li>           
+            <li><a href="?lang=vn">Vietnan</a></li>
+            <li><a href="?lang=my">Myanmar</a></li>
+        </ul>
+    </div> -->
+
+    <div>
+        <img src="img/bscover3.png" width="100%">
+    </div>
+
+
+<template id="sample">
+    <section id="s">
+        <div class="s1">
+            <h1 align="center">${label_baseball_title1}</h1><br>
+            <h1 align="center">${label_baseball_title2}</h1><br><br><br>
+            <div id="vd">
+                <div><iframe class="fr" width="100%" height="100%" src="https://www.youtube.com/embed/XfhNQ2BrzUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div><iframe class="fr" width="100%" height="100%" src="https://www.youtube.com/embed/1vjS9Foggec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </div>
+            <div class="pp">
+                <p>
+                    ${label_baseball_detile_1}  
+                </p>
+                <p>${label_baseball_detile_2}</p>
+                
+            </div><br><br><br>
+            <!-- <img style="width: 100%;" src = "img/g1.jpg" alt="">
+            <img style ="width: 100%;" src = "img/ground1.png"> -->
+
+                            <!-- Container for the image gallery -->
+
+            <div class="container">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                    <img src="img/g1.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                    <img src="img/g2.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                    <img src="img/g6.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                    <img src="img/g3.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                    <img src="img/g5.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                    <img src="img/g4.png" style="width:100%">
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Image text -->
+                <div class="caption-container">
+                <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail images -->
+                <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/g1.png" style="width:100%" onclick="currentSlide(1)" alt="Blue Shines">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/g2.png" style="width:100%" onclick="currentSlide(2)" alt="Setouchi">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/g6.png" style="width:100%" onclick="currentSlide(3)" alt="Blue Shines">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/g3.png" style="width:100%" onclick="currentSlide(4)" alt="Setouchi">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/g5.png" style="width:100%" onclick="currentSlide(5)" alt="Blue Shines">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/g4.png" style="width:100%" onclick="currentSlide(6)" alt="Setouchi">
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+        
+         
+        <div class="s2"  >
+            <h2 >${label_baseball_comment}</h2>
+            <div class="s2in"> 
+                <img src="img/1.png">
+                <div ><h3>${lbc_name1}</h3>${label_baseball_comment_1}</div>  
+                        
+            </div>
+            <div class="s2in"> 
+                <img src="img/2.png">
+                <div><h3>${lbc_name2}</h3>${label_baseball_comment_2}</div>   
+                         
+            </div>
+            <div class="s2in"> 
+                <img src="img/3.png">
+                <div>
+                    <h3>${lbc_name3}</h3>${label_baseball_comment_3}
+                </div>              
+            </div>
+            <div class="s2in"> 
+                <img src="img/4.png">
+                <div><h3>${lbc_name4}</h3>${label_baseball_comment_4} </div>              
+            </div>
+            <div class="s2in"> 
+                <img src="img/5.png">
+                <div><h3>${lbc_name5}</h3>${label_baseball_comment_5}</div>               
+            </div>
+            <div class="s2in"> 
+                <img src="img/6.png">
+                <div><h3>${lbc_name6}</h3>${label_baseball_comment_6} </div>              
+            </div>
+            <div class="s2in"> 
+                <img src="img/7.png">
+                <div><h3>${lbc_name7}</h3>${label_baseball_comment_7} </div>               
+            </div>
+            <div class="s2in"> 
+                <img src="img/8.png">
+                <div><h3>${lbc_name8}</h3>${label_baseball_comment_8} </div>             
+            </div>
+            <div class="s2in"> 
+                <img src="img/9.png">
+                <div><h3>${lbc_name9}</h3>${label_baseball_comment_9} </div>         
+            </div>
+            <div class="s2in"> 
+                <img src="img/10.png">
+                <div><h3>${lbc_name10}</h3>${label_baseball_comment_10} </div>               
+            </div>
+            <div class="s2in"> 
+                <img src="img/11.png">
+                <div><h3>${lbc_name11}</h3><div>
+                   ${label_baseball_comment_11}
+                </div></div>             
+            </div>
+            <div class="s2in"> 
+                <img src="img/12.png" >
+                <div><h3>${lbc_name12}</h3>${label_baseball_comment_12} </div>               
+            </div>
+            <div class="s2in" style="border-bottom: none;"> 
+                <img src="img/13.png">
+                <div><h3>${lbc_name13}</h3>${label_baseball_comment_13}</div>              
+            </div>
+        </div>
+ 
+    </section>
+   
+
+    <div align="center" style="background-color:black; width: 100%; height: 100px; padding: 40px 0px 0px 0px;">
+        <label style="font-size:10pt; color: aliceblue; ">&#64; Copyright </label>
+    </div>
+
+    <script>
+        ScrollReveal().reveal('.s2', {
+        delay: 400,  
+        duration: 2000,
+        distance:'400px',
+        origin:'right'
+        //reset: true
+        });
+
+        //--------------------------
+                let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+
+    </script>
+</template>
+
+</body>
+
+</html>
